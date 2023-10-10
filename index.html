@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta tags retyped from chatGPT conversation started with the question "What is good code for starting my html doc?"-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 01</title>
+    <style>
+      body {
+        background-color: papayawhip;
+      }
+      h1 {
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Class 01 - Lab 01</h1>
+    </header>
+    <Main>
+      
+      <p style="background-color: cornflowerblue; color: midnightblue">What's your name?</p>
+      <p style="background-color: forestgreen; color: lime;">Also, what's your favorite color?</p>
+      <p style="background-color: white; color: red;">Oh, and what's your favorite flower?</p>
+      <p style="background-color: orange; color: black;">Last question! What's your favorite Halloween candy?</p>
+
+
+    </Main>
+    <footer>Author: Lara</footer>
+    <script>
+      let questionOneResponse = prompt("What's your name?"); console.log(questionOneResponse); 
+      alert('Heya ' + questionOneResponse + "! Let's write a poem together!"); 
+
+      let questionTwoResponse = prompt("What's your favorite color?"); console.log(questionTwoResponse);
+      alert(questionTwoResponse + ' is a very nice choice, ' + questionOneResponse + '.');
+
+      let questionThreeResponse = prompt('Oh, and what is your favorite flower? Please write it in plural form.'); console.log(questionThreeResponse);
+      alert('Okay ' + questionOneResponse + '. So your favorite color is ' + questionTwoResponse + ' and your favorite flowers are ' + questionThreeResponse + '. Great!')
+
+      let questionFourResponse = prompt('Last question! What is your favorite Halloween Candy?'); console.log(questionFourResponse);
+      alert('Great ' + questionOneResponse + '! Here is our poem! ~ Roses are ' + questionTwoResponse + ', ' + questionThreeResponse + ' are blue. My favorite Halloween candy is ' + questionFourResponse + ' too!')
+    </script>
+  </body>
+</html>
